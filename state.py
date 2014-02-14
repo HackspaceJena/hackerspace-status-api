@@ -35,14 +35,14 @@ except:
 # Bereich in dem der Status steht
 state = raw["state"]
 # letzte Verarbeitungszeit setzen
-state["lastchange"] = str(int(time.time()))
+state["lastchange"] = int(time.time())
 # Status setzen
 if data and data == 0:
-	state["open"] = "close"
+	state["open"] = False
 elif data and data == 1:
-	state["open"] = "open"
+	state["open"] = True
 else:
-	state["open"] = "null"
+	state["open"] = None
 
 # JSON Decodieren und ausgeben
 print json.dumps(raw)
