@@ -6,7 +6,7 @@ import time
 import logging
 
 fileName = "json"
-url = "http://status.hackspace-jena.de/status/button/"
+url = "http://status.krautspace.de/status/button/"
 
 data = None
 # Raum Status abrufen
