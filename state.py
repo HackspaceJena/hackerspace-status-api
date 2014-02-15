@@ -17,9 +17,8 @@ except:
 else:
 	# Status lessen 
 	data = response.read(1)
-	try:
-		data = int(data)
-	except:
+	# Data validieren
+	if len(data) != 1 or data not in ("0", "1"):
 		logging.exception("ungueltigen Zustand gelesen")
 		data = None
 
@@ -37,10 +36,11 @@ state = raw["state"]
 # letzte Verarbeitungszeit setzen
 state["lastchange"] = int(time.time())
 # Status setzen
-if data and data == 0:
-	state["open"] = False
-elif data and data == 1:
-	state["open"] = True
+if data:
+	if data == "0":
+		state["open"] = False
+	else:
+		state["open"] = True
 else:
 	state["open"] = None
 
