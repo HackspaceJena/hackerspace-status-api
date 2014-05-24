@@ -39,10 +39,13 @@ state["lastchange"] = int(time.time())
 if data:
 	if data == "0":
 		state["open"] = False
+		state["message"] = "no human being on location"
 	else:
 		state["open"] = True
+		state["message"] = "open for public"
 else:
 	state["open"] = None
+	state["message"] = "open for public"
 
 # JSON Decodieren und ausgeben
 print json.dumps(raw)
