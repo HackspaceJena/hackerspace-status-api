@@ -16,8 +16,8 @@
         "open": null,
         "message": "open for public",
         "icon": {
-            "open": "http://status.krautspace.de/images/krautspace_pixelicon_open.png",
-            "closed": "http://status.krautspace.de/images/krautspace_pixelicon_closed.png"
+            "open": "https://status.krautspace.de/images/krautspace_pixelicon_open.png",
+            "closed": "https://status.krautspace.de/images/krautspace_pixelicon_closed.png"
         }
     },
     "api": "0.13",
