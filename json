@@ -33,7 +33,7 @@
             "type": "application/rss+xml"
         },
         "calendar": {
-            "url": "https://grical.org/s/?query=%23krautspace&view=ical",
+            "url": "https://calcifer.datenknoten.me/tags/krautspace.ics",
             "type": "text/calendar"
         }
     }
