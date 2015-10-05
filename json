@@ -26,7 +26,7 @@
         "lon": 11.5824294,
         "address": "Krautgasse 26, 07743 Jena, Germany"
     },
-    "logo": "https://media.krautspace.de/files/logo/krautspace_pixelbanner.png",
+    "logo": "https://status.krautspace.de/images/krautspace_pixelbanner.png",
     "feeds": {
         "wiki": {
             "url": "https://www.krautspace.de/feed.php",
