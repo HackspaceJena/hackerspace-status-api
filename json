@@ -5,19 +5,19 @@
         "email"
     ],
     "contact": {
-        "ml": "hackspace-jena@list.lstsrv.org",
+        "ml": "hackspace-jena@lstsrv.org",
         "twitter": "@HackspaceJena",
         "identica": "krautspace@quitter.se",
-        "email": "office@krautspace.de",
-        "jabber": "krautchan@chat.krautspace.de"
+        "email": "office@kraut.space",
+        "jabber": "krautchan@chat.kraut.space"
     },
     "state": {
         "lastchange": 0,
         "open": null,
         "message": "open for public",
         "icon": {
-            "open": "https://status.krautspace.de/images/krautspace_pixelicon_open.png",
-            "closed": "https://status.krautspace.de/images/krautspace_pixelicon_closed.png"
+            "open": "https://status.kraut.space/images/krautspace_pixelicon_open.png",
+            "closed": "https://status.kraut.space/images/krautspace_pixelicon_closed.png"
         }
     },
     "api": "0.13",
@@ -26,7 +26,7 @@
         "lon": 11.5824294,
         "address": "Krautgasse 26, 07743 Jena, Germany"
     },
-    "logo": "https://status.krautspace.de/images/krautspace_pixelbanner.png",
+    "logo": "https://status.kraut.space/images/krautspace_pixelbanner.png",
     "feeds": {
         "wiki": {
             "url": "https://kraut.space/feed.php",
