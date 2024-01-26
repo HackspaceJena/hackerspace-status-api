@@ -1,3 +1,10 @@
+# ⚠️ Archived repository
+
+This repository was moved to / Dieses Repository befindet sich nun unter:
+
+🔗 https://git.kraut.space/Krautspace/hackerspace-status-api
+
+
 spaceAPI anbindung des Krautspaces
 ==================================
 Der Krautspace[1] ist ein Hackerspace welcher über die spaceAPI[2] informationen,
